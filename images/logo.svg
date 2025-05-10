@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(20 20)">
+        <!-- Зеленые лепестки -->
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#4CAF50" transform="rotate(0)"/>
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#4CAF50" transform="rotate(90)"/>
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#4CAF50" transform="rotate(180)"/>
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#4CAF50" transform="rotate(270)"/>
+        
+        <!-- Черные лепестки -->
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#333333" transform="rotate(45)"/>
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#333333" transform="rotate(135)"/>
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#333333" transform="rotate(225)"/>
+        <path d="M0,-15 C3,-12 3,-8 0,-5 C-3,-8 -3,-12 0,-15" fill="#333333" transform="rotate(315)"/>
+    </g>
+</svg> 

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belzoo - Наши животные</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Belzoo Logo">
+            </div>
+            <button class="burger-menu" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="index.html" class="home-link">Главная страница</a>
+                <a href="tickets.html" class="tickets-link">Билеты</a>
+                <a href="animals.html" class="animals-link">Наши животные</a>
+                <a href="about.html" class="about-link">О нас</a>
+                <a href="#" class="schedule-link">
+                    <img src="images/Icon.svg" alt="Часы">
+                    Расписание 10:00 - 18:00
+                </a>
+                <a href="#" class="phone-link">
+                    <img src="images/telephon.svg" alt="Телефон">
+                    +375297224597
+                </a>
+                <a href="cart.html" class="cart-link">
+                    <img src="images/korzina.svg" alt="Корзина">
+                </a>
+                <a href="register.html" class="profile-link">
+                    <img src="images/profil.svg" alt="Профиль">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Модальное меню для бургер-меню -->
+    <div class="burger-overlay" id="burgerOverlay">
+        <div class="burger-modal">
+            <div class="modal-header">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="Belzoo Logo">
+                </div>
+                <button class="close-burger" aria-label="Закрыть меню">&times;</button>
+            </div>
+            <div class="modal-nav-links">
+                <a href="index.html" class="home-link">Главная страница</a>
+                <a href="tickets.html" class="tickets-link">Билеты</a>
+                <a href="animals.html" class="animals-link">Наши животные</a>
+                <a href="about.html" class="about-link">О нас</a>
+                <a href="#" class="schedule-link">
+                    <img src="images/Icon.svg" alt="Часы">
+                    Расписание 10:00 - 18:00
+                </a>
+                <a href="#" class="phone-link">
+                    <img src="images/telephon.svg" alt="Телефон">
+                    +375297224597
+                </a>
+                <a href="cart.html" class="cart-link">
+                    <img src="images/korzina.svg" alt="Корзина">
+                </a>
+                <a href="register.html" class="profile-link">
+                    <img src="images/profil.svg" alt="Профиль">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="animals-intro">
+            <h1>Наши животные — ваши новые друзья!</h1>
+            <p id="animals-intro-text"></p>
+        </section>
+
+        <section class="animals-categories">
+            <div class="category predators">
+                <h2>Кого вы встретите?</h2>
+                <h3>Хищники</h3>
+                <div class="category-content">
+                    <div class="category-text">
+                        <p id="predators-text"></p>
+                    </div>
+                    <div class="category-image">
+                        <img src="page3/lion.jpeg" alt="Лев">
+                    </div>
+                </div>
+            </div>
+
+            <div class="category exotic-giants">
+                <h3>Экзотические гиганты</h3>
+                <div class="category-content">
+                    <div class="category-text">
+                        <p id="giants-text"></p>
+                    </div>
+                    <div class="category-image">
+                        <img src="page3/jiraf.webp" alt="Жираф">
+                    </div>
+                </div>
+            </div>
+
+            <div class="category primates">
+                <h3>Обезьяны и лемуры</h3>
+                <div class="category-content">
+                    <div class="category-text">
+                        <p id="primates-text"></p>
+                    </div>
+                    <div class="category-image">
+                        <img src="page3/monkey2.jpeg" alt="Обезьяна">
+                    </div>
+                </div>
+            </div>
+
+            <div class="category birds">
+                <h3>Птицы</h3>
+                <div class="category-content">
+                    <div class="category-text">
+                        <p id="birds-text"></p>
+                    </div>
+                    <div class="category-image">
+                        <img src="page3/tukan.jpg" alt="Тукан">
+                    </div>
+                </div>
+            </div>
+
+            <div class="category contact-zone">
+                <h3>Контактная зона</h3>
+                <div class="category-content">
+                    <div class="category-text">
+                        <p id="contact-text"></p>
+                    </div>
+                    <div class="category-image">
+                        <img src="page3/krolik.jpg" alt="Кролик">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="zoo-info">
+            <div class="zoo-info-container">
+                
+                <div class="zoo-content">
+                    <div class="zoo-text">
+                        <h2>Встречайте дикую природу в нашем зоопарке!</h2>
+                        <p>200+ животных со всего мира</p>
+                        <p>Шоу, кормления и фото с питомцами</p>
+                        <p>Удобно и выгодно – билеты онлайн без очередей</p>
+                        <a href="tickets.html" class="buy-ticket">Купить билет</a>
+                    </div>
+                </div>
+                <div class="zoo-image">
+                    <img src="images/hoaka.jpeg" alt="Hoaka">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="Belzoo Logo">
+                </a>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="YouTube">
+                    <img src="images/tube.svg" alt="YouTube">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img src="images/insta.svg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <img src="images/facebook.svg" alt="Facebook">
+                </a>
+            </div>
+            <div class="footer-phone">
+                <span>+375297224597</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/burger.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('data/animals_text.xml')
+            .then(response => response.text())
+            .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+            .then(data => {
+                document.getElementById('animals-intro-text').textContent = data.querySelector('intro').textContent;
+                document.getElementById('predators-text').textContent = data.querySelector('predators').textContent;
+                document.getElementById('giants-text').textContent = data.querySelector('giants').textContent;
+                document.getElementById('primates-text').textContent = data.querySelector('primates').textContent;
+                document.getElementById('birds-text').textContent = data.querySelector('birds').textContent;
+                document.getElementById('contact-text').textContent = data.querySelector('contact').textContent;
+            })
+            .catch(() => {
+                document.getElementById('animals-intro-text').textContent = 'Ошибка загрузки информации о животных.';
+            });
+    });
+    </script>
+</body> 
+</html> 
